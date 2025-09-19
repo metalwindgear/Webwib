@@ -1,7 +1,7 @@
 // Get the button and message elements by their IDs
 const myButton = document.getElementById('myButton');
 const messageElement = document.getElementById('message');
-var hatd = 0
+let hatd = 0;
 
 // Add an event listener to the button
 myButton.addEventListener('click', function() {
