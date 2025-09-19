@@ -8,4 +8,6 @@ myButton.addEventListener('click', function() {
     // When the button is clicked, change the text of the message element
     if (hatd = 1) {
         messageElement.textContent = 'Hello, world! You just clicked the button. 😀';
+        hatd += 1;
+}
 });
