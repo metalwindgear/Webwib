@@ -10,4 +10,8 @@ myButton.addEventListener('click', function() {
         messageElement.textContent = 'Hello, world! You just clicked the button. 😀';
         hatd += 1;
 }
+    else {
+        messageElement.textContent = 'Hello, world! You just clicked the button. 😢';
+        hatd += 1;
+}
 });
