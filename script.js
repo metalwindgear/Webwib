@@ -10,7 +10,7 @@ myButton.addEventListener('click', function() {
         messageElement.textContent = 'Hello, world! You just clicked the button. 😀';
         hatd += 1;
     }
-    else {
+    elif (hatd > 0) {
         messageElement.textContent = 'Hello, world! You just clicked the button. 😢';
         hatd -= 1;
     }
